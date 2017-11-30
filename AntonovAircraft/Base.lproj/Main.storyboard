@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="f6y-El-8yR">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Самалёты Антонов-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomePageViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="antonovFirstScreen" translatesAutoresizingMaskIntoConstraints="NO" id="J8X-o7-lBq">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gcO-gN-x2v">
+                                <rect key="frame" x="16" y="169" width="343" height="78"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O8G-vd-ZqX">
+                                        <rect key="frame" x="279" y="14" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Button" image="arrow"/>
+                                        <connections>
+                                            <segue destination="mKr-i9-UhK" kind="show" id="azB-Gu-uuz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R84-5P-dad">
+                                        <rect key="frame" x="8" y="24" width="250" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="19"/>
+                                        <state key="normal" title="Транспортные самолёты">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="mKr-i9-UhK" kind="show" id="97M-j5-nUD"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FmZ-nM-AaR">
+                                <rect key="frame" x="16" y="305" width="343" height="78"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q1r-Ve-nEt">
+                                        <rect key="frame" x="279" y="14" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Button" image="arrow"/>
+                                        <connections>
+                                            <segue destination="DtE-Du-Aph" kind="show" id="9L8-Qm-AHO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vrl-Uc-Qet">
+                                        <rect key="frame" x="8" y="24" width="241" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="19"/>
+                                        <state key="normal" title="Пассажирские самолёты">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="DtE-Du-Aph" kind="show" id="ldP-L2-7ZE"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9c7-rj-77U">
+                                <rect key="frame" x="16" y="443" width="343" height="78"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="doX-uQ-Yvr">
+                                        <rect key="frame" x="279" y="14" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Button" image="arrow"/>
+                                        <connections>
+                                            <segue destination="9EB-H9-DN3" kind="show" id="rJr-Ln-EH0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2kH-wO-R1d">
+                                        <rect key="frame" x="8" y="24" width="246" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="19"/>
+                                        <state key="normal" title="Специального назначения">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="9EB-H9-DN3" kind="show" id="rQj-lg-c7S"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Самалёты Антонов" id="xf7-wd-hTt">
+                        <barButtonItem key="backBarButtonItem" title="Назад" id="dcX-06-bp2"/>
+                        <barButtonItem key="rightBarButtonItem" id="gFl-gL-a7L">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hKT-Eg-JoU">
+                                <rect key="frame" x="329" y="7" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="info"/>
+                                <connections>
+                                    <segue destination="JfY-OZ-CEd" kind="show" id="pbZ-o0-raW"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="J8X-o7-lBq" id="0a2-sB-Kgi"/>
+                        <outlet property="passengerAircraftView" destination="FmZ-nM-AaR" id="UoE-Nr-Vgm"/>
+                        <outlet property="specialPurposeAircraftView" destination="9c7-rj-77U" id="uB7-5V-bTI"/>
+                        <outlet property="transportAircraftView" destination="gcO-gN-x2v" id="6c3-bg-hQt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="38.23088455772114"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="z6x-NR-Vpg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="f6y-El-8yR" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XOl-4x-Xto">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Dce-9A-tzn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c6p-Nz-DFk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="161" y="38"/>
+        </scene>
+        <!--Транспортные самолёты-->
+        <scene sceneID="GEG-Vf-Pmv">
+            <objects>
+                <viewController title="Транспортные самолёты" id="mKr-i9-UhK" customClass="TransportAircraftViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fRF-Ye-zgn"/>
+                        <viewControllerLayoutGuide type="bottom" id="aCj-kv-PSE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EL4-h6-uhf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="antonovFirstScreen" translatesAutoresizingMaskIntoConstraints="NO" id="hgl-85-byz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ekV-6s-9Ic">
+                                <rect key="frame" x="16" y="72" width="343" height="479"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" translatesAutoresizingMaskIntoConstraints="NO" id="xD5-zs-u2F">
+                                <rect key="frame" x="16" y="556" width="343" height="37"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="pageIndicatorTintColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </pageControl>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dx6-Pq-5oR" userLabel="Desc View">
+                                <rect key="frame" x="0.0" y="590" width="375" height="500"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="drn-qJ-nGL" userLabel="Dark View">
+                                        <rect key="frame" x="158.5" y="5" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WaP-Fp-R4M">
+                                        <rect key="frame" x="-2" y="50" width="379" height="400"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcw-Y9-CTJ" userLabel="Round Button">
+                                        <rect key="frame" x="158.5" y="5" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="Button" image="arrowUp"/>
+                                        <connections>
+                                            <action selector="showDescription:" destination="mKr-i9-UhK" eventType="touchUpInside" id="byU-2m-5r2"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Транспортные самолёты" id="TJy-SA-1WE">
+                        <barButtonItem key="backBarButtonItem" title="Назад" id="jOL-db-Mes"/>
+                        <barButtonItem key="rightBarButtonItem" id="PIs-qi-wRq">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Yv5-fh-rBH">
+                                <rect key="frame" x="329" y="7" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="info"/>
+                                <connections>
+                                    <segue destination="IPv-Kg-EPo" kind="show" id="GyW-tx-6Zi"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="darkView" destination="drn-qJ-nGL" id="hjr-Zs-nrE"/>
+                        <outlet property="descView" destination="Dx6-Pq-5oR" id="WQy-4h-fEb"/>
+                        <outlet property="pageControl" destination="xD5-zs-u2F" id="9Cu-pL-OpD"/>
+                        <outlet property="roundButton" destination="fcw-Y9-CTJ" id="aYS-tT-Lbh"/>
+                        <outlet property="scrollView" destination="ekV-6s-9Ic" id="bcI-8O-s3N"/>
+                        <outlet property="textView" destination="WaP-Fp-R4M" id="g59-dp-tke"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OnC-8T-gXH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2344.8000000000002" y="-280.20989505247377"/>
+        </scene>
+        <!--Транспортные самолёты-->
+        <scene sceneID="USi-n0-Y22">
+            <objects>
+                <viewController id="IPv-Kg-EPo" customClass="InfoTransportAircraftViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ugO-ih-5Cx"/>
+                        <viewControllerLayoutGuide type="bottom" id="OSl-Dt-M3l"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OuR-Op-oZj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="antonovSecondScreen" translatesAutoresizingMaskIntoConstraints="NO" id="ACi-mk-jsG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ан-70" translatesAutoresizingMaskIntoConstraints="NO" id="PDx-8N-HTX">
+                                <rect key="frame" x="0.0" y="64" width="375" height="209"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CKf-rn-87C">
+                                <rect key="frame" x="0.0" y="293" width="375" height="665"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
+                                <string key="text">Транспортные самолеты – визитная карточка фирмы «АНТОНОВ». Это класс летательных аппаратов, в разработке которых предприятие приобрело наибольший опыт и достигло наибольших успехов. К характерным особенностям транспортных «АНов» относится не только способность работать в сложных климатических условиях, на отдаленных и высотных аэродромах с самым разнообразным покрытием взлетно−посадочных полос, но прежде всего – широчайший диапазон перевозимых грузов.
+
+ Именно способность принимать на борт грузы огромных габаритов и веса выделяет самолеты «АН» среди других и позволяет занимать им четко определенную нишу в глобальной транспортной системе. На Ан−124−100 «Руслан» и Ан−225 «Мрия», например, выполнены сотни впечатляющих транспортных операций, таких как перевозки неразборных блоков промышленного оборудования массой до 180 т или огромных частей космических ракет−носителей, которые не поместились бы больше ни в один самолет в мире.
+
+Не менее важной чертой, присущей всем антоновским «грузовикам», является независимость от наземного погрузочно−разгрузочного оборудования и связанная с этим автономность эксплуатации, что обеспечивается наличием хвостовых и носовых люков, грузовых рамп, бортовых подъемных кранов и лебедок.
+
+Но чтобы доставить груз именно туда, где он необходим, одного бортового погрузочного комплекса недостаточно. Поэтому самолеты «Ан» наделены повышенной аэродромной ходимостью и способностью безопасно работать с грунтовых, галечных, ледовых и других подобных аэродромов.
+
+Чтобы в полной мере реализовать это преимущество, многие из них способны выполнять короткие взлет и посадку (КВП). В некоторых случаях это качество бывает настолько важным, что от него зависят жизни людей. Так, в 1986 году один из Ан−74 совершил посадку на осколок дрейфующей льдины в районе Северного полюса, пробежав не более 300 м, и вывез на «большую землю» нуждавшихся в помощи участников лыжной экспедиции Д. Шпаро.
+
+Наиболее совершенным самолетом КВП, намного опередившим уровень подобных разработок в мире, является Ан−70. Эта уникальная машина способна поднимать с грунтовой ВПП длиной всего 600 м груз массой 20 т и перевозить его на расстояние 3 000 км. А ее объемный фюзеляж позволяет размещать 98% всех грузов, для перевозки которых созданы гораздо более крупные самолеты.
+
+Специалистами «АНОТОНОВ» разработаны методы создания крылатых грузовозов, гарантированно обеспечивающие им заданный уровень летно−технических характеристик, высокие экономические показатели и непревзойденный ресурс.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Транспортные самолёты" id="ZNg-MR-vNE">
+                        <barButtonItem key="backBarButtonItem" title="Назад" id="R86-Xt-htl"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LM0-QU-ENW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3177" y="-280"/>
+        </scene>
+        <!--Пассажирские самолёты-->
+        <scene sceneID="eNt-XD-tTg">
+            <objects>
+                <viewController title="Пассажирские самолёты" id="DtE-Du-Aph" customClass="PassengerAircraftViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="X3h-v1-Azj"/>
+                        <viewControllerLayoutGuide type="bottom" id="9tW-h5-jpe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NIx-7H-KLg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="antonovFirstScreen" translatesAutoresizingMaskIntoConstraints="NO" id="aJN-tq-iP8">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbE-cq-Mh0">
+                                <rect key="frame" x="16" y="72" width="343" height="479"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" translatesAutoresizingMaskIntoConstraints="NO" id="Aea-PQ-iXf">
+                                <rect key="frame" x="16" y="566" width="343" height="37"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="pageIndicatorTintColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </pageControl>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jHf-mJ-YjB" userLabel="Desc View">
+                                <rect key="frame" x="0.0" y="590" width="375" height="500"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R8y-jE-3zj" userLabel="Dark View">
+                                        <rect key="frame" x="158.5" y="5" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="suw-Va-JAq">
+                                        <rect key="frame" x="-2" y="50" width="375" height="400"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D7c-gy-Mbi" userLabel="Round Button">
+                                        <rect key="frame" x="158.5" y="5" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="Button" image="arrowUp"/>
+                                        <connections>
+                                            <action selector="showDescription:" destination="DtE-Du-Aph" eventType="touchUpInside" id="oDV-oc-pP7"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Пассажирские самолёты" id="X6b-Sd-h8P">
+                        <barButtonItem key="backBarButtonItem" title="Назад" id="lCw-3K-Djf"/>
+                        <barButtonItem key="rightBarButtonItem" id="8t3-Mg-qKA">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="yBg-rQ-goG">
+                                <rect key="frame" x="329" y="7" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Button" image="info"/>
+                                <connections>
+                                    <segue destination="K8l-Rd-KzF" kind="show" id="XPF-kg-oj0"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="darkView" destination="R8y-jE-3zj" id="r4l-xS-d9U"/>
+                        <outlet property="descView" destination="jHf-mJ-YjB" id="i3n-6M-Tjc"/>
+                        <outlet property="pageControl" destination="Aea-PQ-iXf" id="goF-1Y-O32"/>
+                        <outlet property="roundButton" destination="D7c-gy-Mbi" id="iBv-Ve-iUq"/>
+                        <outlet property="scrollView" destination="fbE-cq-Mh0" id="UFY-wY-Isz"/>
+                        <outlet property="textView" destination="suw-Va-JAq" id="D51-bU-x5I"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="snX-8g-2Zc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2345" y="456"/>
+        </scene>
+        <!--Специального назначения-->
+        <scene sceneID="gRV-zs-kbC">
+            <objects>
+                <viewController title="Специального назначения" id="9EB-H9-DN3" customClass="SpecialPurposeAircraftViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Uv5-0z-oxm"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ew8-TD-qsM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bwc-6E-vr3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="antonovFirstScreen" translatesAutoresizingMaskIntoConstraints="NO" id="foD-QJ-E5s">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgM-du-H3V">
+                                <rect key="frame" x="16" y="72" width="343" height="479"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="ABC-Iy-ahZ">
+                                <rect key="frame" x="16" y="566" width="343" height="37"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="pageIndicatorTintColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </pageControl>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F3N-xh-f17" userLabel="Desc View">
+                                <rect key="frame" x="0.0" y="590" width="375" height="500"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tCA-HA-HtE" userLabel="Dark View">
+                                        <rect key="frame" x="158.5" y="5" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbj-5k-te1">
+                                        <rect key="frame" x="-2" y="50" width="375" height="400"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRc-5t-1Vq" userLabel="Round Button">
+                                        <rect key="frame" x="158.5" y="5" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="Button" image="arrowUp"/>
+                                        <connections>
+                                            <action selector="showDescription:" destination="9EB-H9-DN3" eventType="touchUpInside" id="xA8-M3-sxI"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Специального назначения" id="mbS-pW-cHn">
+                        <barButtonItem key="backBarButtonItem" title="Назад" id="xDf-Gh-EP1"/>
+                        <barButtonItem key="rightBarButtonItem" id="7Pf-qv-CFG">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="506-a4-TBb">
+                                <rect key="frame" x="329" y="7" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="info"/>
+                                <connections>
+                                    <segue destination="xNH-Hu-lLD" kind="show" id="F6B-rN-lK1"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="darkView" destination="tCA-HA-HtE" id="S9a-qV-fJi"/>
+                        <outlet property="descView" destination="F3N-xh-f17" id="pHf-t2-DsF"/>
+                        <outlet property="pageControl" destination="ABC-Iy-ahZ" id="lVD-ld-IOp"/>
+                        <outlet property="roundButton" destination="dRc-5t-1Vq" id="bc5-NE-atb"/>
+                        <outlet property="scrollView" destination="wgM-du-H3V" id="zTr-2f-gx2"/>
+                        <outlet property="textView" destination="tbj-5k-te1" id="Lno-hE-Cim"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TGr-Eg-AHe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2345" y="1219"/>
+        </scene>
+        <!--Пассажирские самолёты-->
+        <scene sceneID="HhS-U8-Q6U">
+            <objects>
+                <viewController id="K8l-Rd-KzF" customClass="InfoPassengerAircraftViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ao7-au-SFM"/>
+                        <viewControllerLayoutGuide type="bottom" id="AoE-B0-YtY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VOJ-Ra-7q9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="antonovSecondScreen" translatesAutoresizingMaskIntoConstraints="NO" id="wa1-DK-ONO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ан-74" translatesAutoresizingMaskIntoConstraints="NO" id="jTa-dY-yfw">
+                                <rect key="frame" x="0.0" y="64" width="375" height="209"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="I1f-Gh-Bhd">
+                                <rect key="frame" x="0.0" y="293" width="375" height="665"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
+                                <string key="text">Создание пассажирских самолетов в последние годы стало для «АНТОНОВ» одним из основных видов деятельности. При этом, предприятие ориентируется на   региональные пассажирские перевозки. Именно в этом классе самолетов фирма обладает почти 50−летним опытом, обширными связями с эксплуатантами авиатехники и целым рядом «ноу−хау».
+
+  Важной особенностью современной стратегии предприятия на этом рынке является полнота охвата. «АНТОНОВ» – единственная фирма, которая предлагает заказчикам полный спектр современных региональных пассажирских самолетов: от 27−местного турбовинтового Ан−38−100 до 99−местного реактивного Ан−158. При этом все машины отвечают требованиям современных норм летной годности и рекомендациям ИКАО.
+
+На фоне предложений других фирм пассажирская техника «АНТОНОВ» выделяется целым рядом особенностей. Прежде всего, это ориентация на рынки стран, отличающихся широким диапазоном географических и климатических условий, посредственным качеством взлетно−посадочных полос, ограниченностью наземного оборудования, невысокими тарифами на перевозки. В таких условиях «Аны» неизменно демонстрируют способность работать не только безопасно, но и экономически эффективно. Это убедительно подтверждается длительными испытаниями как на Крайнем Севере, так и в южных широтах, а также практической эксплуатацией. Так, 80−местный Ан−148−100 доказал свою пригодность к полетам в диапазоне температур аэродрома от −55 до +45 градусов. А 52−местные турбовинтовые Ан−140, работающие на местных линиях Якутии, систематически выполняют посадки на грунтовые, ледовые и галечные ВПП и при этом обладают комфортом современных магистральных лайнеров.
+
+Высокий уровень комфорта, пониженный шум, экологичность, безопасность и экономическая эффективность – вот «коллективный портрет» нового поколения пассажирских лайнеров «АНТОНОВ».</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Пассажирские самолёты" id="rVq-Zf-pfr">
+                        <barButtonItem key="backBarButtonItem" title="Назад" id="bTO-ma-woN"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W57-Vj-qQV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3177" y="456"/>
+        </scene>
+        <!--Специального назначения-->
+        <scene sceneID="EoH-TP-cF7">
+            <objects>
+                <viewController id="xNH-Hu-lLD" customClass="InfoSpecialPurposeAircraftViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iJg-Gh-4dM"/>
+                        <viewControllerLayoutGuide type="bottom" id="TAn-oM-Yib"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jxk-dl-f9B">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="antonovSecondScreen" translatesAutoresizingMaskIntoConstraints="NO" id="0W9-SS-C3T">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ан-32П" translatesAutoresizingMaskIntoConstraints="NO" id="7zh-NH-H8i">
+                                <rect key="frame" x="0.0" y="64" width="375" height="209"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="I99-vq-6jc">
+                                <rect key="frame" x="0.0" y="293" width="375" height="665"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
+                                <string key="text">Одним из самых заметных направлений в деятельности «АНТОНОВ» является создание многочисленных летательных аппаратов специального назначения на базе транспортных и пассажирских самолетов. Таких машин уже разработано более 80, и применяются они в столь широком диапазоне функций, что все их даже трудно перечислить. Они используются для борьбы с вредителями в сельском и лесном хозяйствах, подкормки растений, мониторинга воздушного пространства и дистанционного зондирования земли, борьбы с пожарами, аэрофотосъемки, оказания помощи больным и раненым, спасения терпящих бедствие, решения различных задач в космических программах…
+
+В современном поколении специализированных «Анов» видное место занимает противопожарный Ан-32П, созданный на базе Ан-32 – единственного в мире самолета, который предназначен для аэродромов, расположенных на высоте более 4 000 м. Эта машина, способная обрушить на огонь сразу 8 т огнегасящей жидкости, в борьбе со стихией не раз доказывала свою исключительную эффективность. Однако Ан-32П – не просто воздушный пожарный. Правильнее его рассматривать как комплексное средство реагирования на различные чрезвычайные ситуации. Ведь самолет способен не только гасить огонь, но и доставлять на место катастрофы спасателей и срочные грузы, эвакуировать пострадавших, вести воздушный мониторинг зоны бедствия.
+
+Большое количество спецвариантов создано на базе легких транспортных самолетов Ан-72/74. Среди них морские патрульные Ан-72П и Ан-74МП, оснащенные современным оборудованием и вооружением для несения службы в системе береговой охраны, и медицинский Ан-74ТК-100С, имеющий на борту все необходимое для проведения срочной терапии и быстрой доставки больных в специализированные медицинские центры. Есть и варианты, оптимизированные для применения в условиях Арктики и Антарктики. Для перевозки высокопоставленных персон прекрасно оснащены Ан-72/74 нескольких версий. По сравнению с западными аналогами эти машины предоставляют в распоряжение VIP-пассажиров гораздо больший объем салона. Соответственно, они обладают более широкими возможностями для организации в полете продуктивной работы и полноценного отдыха.
+
+Возможно, наиболее ярким представителем специализированных «Анов» является самый большой в мире самолет Ан-225 «Мрия». Этот гигант был создан для транспортировки на Байконур компонентов ракетно-космического комплекса «Энергия-Буран» и выполнил ряд перевозок, навсегда вошедших в историю мировой авиации.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Специального назначения" id="veV-on-USs">
+                        <barButtonItem key="backBarButtonItem" title="Назад" id="37Q-ni-YCY"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tDk-kH-FlY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3177" y="1218"/>
+        </scene>
+        <!--Самалёты Антонов-->
+        <scene sceneID="QV0-Ph-HuT">
+            <objects>
+                <viewController id="JfY-OZ-CEd" customClass="InfoAntonovAircraftViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zWa-yC-Jh8"/>
+                        <viewControllerLayoutGuide type="bottom" id="2mr-dB-7oG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ywA-tf-PQ0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="antonovSecondScreen" translatesAutoresizingMaskIntoConstraints="NO" id="Mi0-2T-QB2">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="antonovAircraft" translatesAutoresizingMaskIntoConstraints="NO" id="0rU-2R-zTm">
+                                <rect key="frame" x="0.0" y="64" width="375" height="209"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5zn-Ta-kqh">
+                                <rect key="frame" x="0.0" y="293" width="375" height="665"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
+                                <string key="text">Передовые идеи и технологии особенно востребованы в наше динамичное время. Именно с таким продуктом выступает на мировом рынке ГП «АНТОНОВ».
+
+Авторству коллектива нашего предприятия принадлежит более ста типов и модификаций пассажирских, транспортных и специализированных самолетов, растиражированных в количестве более 22 000 экземпляров. Особую гордость авиаконструкторов составляют грузовые гиганты «Руслан» и «Мрия», являющиеся визитной карточкой фирмы.
+
+Наше предприятие, история которого насчитывает более 60 лет, ныне является одним из немногих предприятий, реализующих полный цикл создания современного летательного аппарата – от предпроектных научных исследований до постройки, испытаний, сертификации, серийного производства и послепродажного обслуживания.
+
+Центральным элементом комплекса «АНТОНОВ» по праву считается конструкторское бюро - «мозговой центр» компании.
+
+Наличие производственной, летно-испытательной баз и аэродрома позволяет воплощать конструкторские идеи в реальную авиатехнику и выполнять необходимые доработки в ходе ее летных испытаний. Таким образом, на рынок выносится конкурентоспособная продукция, в том числе доведенные до совершенства разработки, предоставляющие нашим партнерам возможности развития и модернизации собственного авиастроения.
+
+Мы дорожим нашими многочисленными партнерами в 76 странах и всегда рады новым возможностям для развития сотрудничества.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Самалёты Антонов" id="ZRG-DE-gRj">
+                        <barButtonItem key="backBarButtonItem" title="Назад" id="yGo-z5-Bh5"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="782-9X-UxH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="-683"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="antonovAircraft" width="600" height="359"/>
+        <image name="antonovFirstScreen" width="2560" height="1600"/>
+        <image name="antonovSecondScreen" width="1920" height="1080"/>
+        <image name="arrow" width="256" height="256"/>
+        <image name="arrowUp" width="512" height="512"/>
+        <image name="info" width="800" height="800"/>
+        <image name="Ан-32П" width="715" height="435"/>
+        <image name="Ан-70" width="715" height="435"/>
+        <image name="Ан-74" width="715" height="435"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="ldP-L2-7ZE"/>
+        <segue reference="azB-Gu-uuz"/>
+        <segue reference="rQj-lg-c7S"/>
+    </inferredMetricsTieBreakers>
+</document>

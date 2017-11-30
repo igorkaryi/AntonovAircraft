@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84B9F0381F19EC9E00EDD520 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9F0371F19EC9E00EDD520 /* main.m */; };
+		84B9F03B1F19EC9E00EDD520 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9F03A1F19EC9E00EDD520 /* AppDelegate.m */; };
+		84B9F03E1F19EC9E00EDD520 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9F03D1F19EC9E00EDD520 /* HomePageViewController.m */; };
+		84B9F0411F19EC9E00EDD520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B9F03F1F19EC9E00EDD520 /* Main.storyboard */; };
+		84B9F0431F19EC9E00EDD520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B9F0421F19EC9E00EDD520 /* Assets.xcassets */; };
+		84B9F0461F19EC9E00EDD520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B9F0441F19EC9E00EDD520 /* LaunchScreen.storyboard */; };
+		84B9F0511F19EC9E00EDD520 /* AntonovAircraftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9F0501F19EC9E00EDD520 /* AntonovAircraftTests.m */; };
+		84B9F05C1F19EC9E00EDD520 /* AntonovAircraftUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9F05B1F19EC9E00EDD520 /* AntonovAircraftUITests.m */; };
+		84B9F06E1F19F9BA00EDD520 /* PassengerAircraftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9F06D1F19F9BA00EDD520 /* PassengerAircraftViewController.m */; };
+		84B9F0711F19F9F500EDD520 /* SpecialPurposeAircraftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9F0701F19F9F500EDD520 /* SpecialPurposeAircraftViewController.m */; };
+		84B9F0741F19FC6700EDD520 /* TransportAircraftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9F0731F19FC6700EDD520 /* TransportAircraftViewController.m */; };
+		84B9F07C1F1A074B00EDD520 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B9F07B1F1A074B00EDD520 /* CardView.xib */; };
+		84B9F07F1F1A086700EDD520 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9F07E1F1A086700EDD520 /* CardView.m */; };
+		84B9F0811F1A0CDA00EDD520 /* TransportAircraftPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84B9F0801F1A0CDA00EDD520 /* TransportAircraftPlist.plist */; };
+		84B9F0831F1A213000EDD520 /* PassengerAircraftPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84B9F0821F1A213000EDD520 /* PassengerAircraftPlist.plist */; };
+		84B9F0851F1A214B00EDD520 /* SpecialPurposeAircraftPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84B9F0841F1A214B00EDD520 /* SpecialPurposeAircraftPlist.plist */; };
+		84B9F0881F1A284C00EDD520 /* InfoTransportAircraftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9F0871F1A284C00EDD520 /* InfoTransportAircraftViewController.m */; };
+		84B9F08B1F1A2D8600EDD520 /* InfoPassengerAircraftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9F08A1F1A2D8600EDD520 /* InfoPassengerAircraftViewController.m */; };
+		84B9F08E1F1A2DA000EDD520 /* InfoSpecialPurposeAircraftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9F08D1F1A2DA000EDD520 /* InfoSpecialPurposeAircraftViewController.m */; };
+		84B9F0911F1A309E00EDD520 /* InfoAntonovAircraftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9F0901F1A309E00EDD520 /* InfoAntonovAircraftViewController.m */; };
+		84B9F09C1F1A4DA900EDD520 /* Ан-3Т.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B9F09B1F1A4DA900EDD520 /* Ан-3Т.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84B9F04D1F19EC9E00EDD520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B9F02B1F19EC9E00EDD520 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B9F0321F19EC9E00EDD520;
+			remoteInfo = AntonovAircraft;
+		};
+		84B9F0581F19EC9E00EDD520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B9F02B1F19EC9E00EDD520 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B9F0321F19EC9E00EDD520;
+			remoteInfo = AntonovAircraft;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84B9F0331F19EC9E00EDD520 /* AntonovAircraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntonovAircraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B9F0371F19EC9E00EDD520 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84B9F0391F19EC9E00EDD520 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84B9F03A1F19EC9E00EDD520 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84B9F03C1F19EC9E00EDD520 /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		84B9F03D1F19EC9E00EDD520 /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		84B9F0401F19EC9E00EDD520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84B9F0421F19EC9E00EDD520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84B9F0451F19EC9E00EDD520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84B9F0471F19EC9E00EDD520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B9F04C1F19EC9E00EDD520 /* AntonovAircraftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntonovAircraftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B9F0501F19EC9E00EDD520 /* AntonovAircraftTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AntonovAircraftTests.m; sourceTree = "<group>"; };
+		84B9F0521F19EC9E00EDD520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B9F0571F19EC9E00EDD520 /* AntonovAircraftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntonovAircraftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B9F05B1F19EC9E00EDD520 /* AntonovAircraftUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AntonovAircraftUITests.m; sourceTree = "<group>"; };
+		84B9F05D1F19EC9E00EDD520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B9F06C1F19F9BA00EDD520 /* PassengerAircraftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassengerAircraftViewController.h; sourceTree = "<group>"; };
+		84B9F06D1F19F9BA00EDD520 /* PassengerAircraftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassengerAircraftViewController.m; sourceTree = "<group>"; };
+		84B9F06F1F19F9F500EDD520 /* SpecialPurposeAircraftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialPurposeAircraftViewController.h; sourceTree = "<group>"; };
+		84B9F0701F19F9F500EDD520 /* SpecialPurposeAircraftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialPurposeAircraftViewController.m; sourceTree = "<group>"; };
+		84B9F0721F19FC6700EDD520 /* TransportAircraftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransportAircraftViewController.h; sourceTree = "<group>"; };
+		84B9F0731F19FC6700EDD520 /* TransportAircraftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransportAircraftViewController.m; sourceTree = "<group>"; };
+		84B9F07B1F1A074B00EDD520 /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		84B9F07D1F1A086700EDD520 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		84B9F07E1F1A086700EDD520 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		84B9F0801F1A0CDA00EDD520 /* TransportAircraftPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TransportAircraftPlist.plist; sourceTree = "<group>"; };
+		84B9F0821F1A213000EDD520 /* PassengerAircraftPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PassengerAircraftPlist.plist; sourceTree = "<group>"; };
+		84B9F0841F1A214B00EDD520 /* SpecialPurposeAircraftPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SpecialPurposeAircraftPlist.plist; sourceTree = "<group>"; };
+		84B9F0861F1A284C00EDD520 /* InfoTransportAircraftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoTransportAircraftViewController.h; sourceTree = "<group>"; };
+		84B9F0871F1A284C00EDD520 /* InfoTransportAircraftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoTransportAircraftViewController.m; sourceTree = "<group>"; };
+		84B9F0891F1A2D8600EDD520 /* InfoPassengerAircraftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoPassengerAircraftViewController.h; sourceTree = "<group>"; };
+		84B9F08A1F1A2D8600EDD520 /* InfoPassengerAircraftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoPassengerAircraftViewController.m; sourceTree = "<group>"; };
+		84B9F08C1F1A2DA000EDD520 /* InfoSpecialPurposeAircraftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoSpecialPurposeAircraftViewController.h; sourceTree = "<group>"; };
+		84B9F08D1F1A2DA000EDD520 /* InfoSpecialPurposeAircraftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoSpecialPurposeAircraftViewController.m; sourceTree = "<group>"; };
+		84B9F08F1F1A309E00EDD520 /* InfoAntonovAircraftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoAntonovAircraftViewController.h; sourceTree = "<group>"; };
+		84B9F0901F1A309E00EDD520 /* InfoAntonovAircraftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoAntonovAircraftViewController.m; sourceTree = "<group>"; };
+		84B9F09B1F1A4DA900EDD520 /* Ан-3Т.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ан-3Т.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B9F0301F19EC9E00EDD520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B9F0491F19EC9E00EDD520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B9F0541F19EC9E00EDD520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84B9F02A1F19EC9E00EDD520 = {
+			isa = PBXGroup;
+			children = (
+				84B9F0351F19EC9E00EDD520 /* AntonovAircraft */,
+				84B9F04F1F19EC9E00EDD520 /* AntonovAircraftTests */,
+				84B9F05A1F19EC9E00EDD520 /* AntonovAircraftUITests */,
+				84B9F0341F19EC9E00EDD520 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84B9F0341F19EC9E00EDD520 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B9F0331F19EC9E00EDD520 /* AntonovAircraft.app */,
+				84B9F04C1F19EC9E00EDD520 /* AntonovAircraftTests.xctest */,
+				84B9F0571F19EC9E00EDD520 /* AntonovAircraftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B9F0351F19EC9E00EDD520 /* AntonovAircraft */ = {
+			isa = PBXGroup;
+			children = (
+				84B9F0391F19EC9E00EDD520 /* AppDelegate.h */,
+				84B9F03A1F19EC9E00EDD520 /* AppDelegate.m */,
+				84B9F03C1F19EC9E00EDD520 /* HomePageViewController.h */,
+				84B9F03D1F19EC9E00EDD520 /* HomePageViewController.m */,
+				84B9F0721F19FC6700EDD520 /* TransportAircraftViewController.h */,
+				84B9F0731F19FC6700EDD520 /* TransportAircraftViewController.m */,
+				84B9F06C1F19F9BA00EDD520 /* PassengerAircraftViewController.h */,
+				84B9F06D1F19F9BA00EDD520 /* PassengerAircraftViewController.m */,
+				84B9F06F1F19F9F500EDD520 /* SpecialPurposeAircraftViewController.h */,
+				84B9F0701F19F9F500EDD520 /* SpecialPurposeAircraftViewController.m */,
+				84B9F07D1F1A086700EDD520 /* CardView.h */,
+				84B9F07E1F1A086700EDD520 /* CardView.m */,
+				84B9F07B1F1A074B00EDD520 /* CardView.xib */,
+				84B9F0801F1A0CDA00EDD520 /* TransportAircraftPlist.plist */,
+				84B9F0821F1A213000EDD520 /* PassengerAircraftPlist.plist */,
+				84B9F0841F1A214B00EDD520 /* SpecialPurposeAircraftPlist.plist */,
+				84B9F08F1F1A309E00EDD520 /* InfoAntonovAircraftViewController.h */,
+				84B9F0901F1A309E00EDD520 /* InfoAntonovAircraftViewController.m */,
+				84B9F0861F1A284C00EDD520 /* InfoTransportAircraftViewController.h */,
+				84B9F0871F1A284C00EDD520 /* InfoTransportAircraftViewController.m */,
+				84B9F0891F1A2D8600EDD520 /* InfoPassengerAircraftViewController.h */,
+				84B9F08A1F1A2D8600EDD520 /* InfoPassengerAircraftViewController.m */,
+				84B9F08C1F1A2DA000EDD520 /* InfoSpecialPurposeAircraftViewController.h */,
+				84B9F08D1F1A2DA000EDD520 /* InfoSpecialPurposeAircraftViewController.m */,
+				84B9F03F1F19EC9E00EDD520 /* Main.storyboard */,
+				84B9F0421F19EC9E00EDD520 /* Assets.xcassets */,
+				84B9F0441F19EC9E00EDD520 /* LaunchScreen.storyboard */,
+				84B9F0471F19EC9E00EDD520 /* Info.plist */,
+				84B9F0361F19EC9E00EDD520 /* Supporting Files */,
+			);
+			path = AntonovAircraft;
+			sourceTree = "<group>";
+		};
+		84B9F0361F19EC9E00EDD520 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84B9F09B1F1A4DA900EDD520 /* Ан-3Т.png */,
+				84B9F0371F19EC9E00EDD520 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84B9F04F1F19EC9E00EDD520 /* AntonovAircraftTests */ = {
+			isa = PBXGroup;
+			children = (
+				84B9F0501F19EC9E00EDD520 /* AntonovAircraftTests.m */,
+				84B9F0521F19EC9E00EDD520 /* Info.plist */,
+			);
+			path = AntonovAircraftTests;
+			sourceTree = "<group>";
+		};
+		84B9F05A1F19EC9E00EDD520 /* AntonovAircraftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84B9F05B1F19EC9E00EDD520 /* AntonovAircraftUITests.m */,
+				84B9F05D1F19EC9E00EDD520 /* Info.plist */,
+			);
+			path = AntonovAircraftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B9F0321F19EC9E00EDD520 /* AntonovAircraft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B9F0601F19EC9E00EDD520 /* Build configuration list for PBXNativeTarget "AntonovAircraft" */;
+			buildPhases = (
+				84B9F02F1F19EC9E00EDD520 /* Sources */,
+				84B9F0301F19EC9E00EDD520 /* Frameworks */,
+				84B9F0311F19EC9E00EDD520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AntonovAircraft;
+			productName = AntonovAircraft;
+			productReference = 84B9F0331F19EC9E00EDD520 /* AntonovAircraft.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84B9F04B1F19EC9E00EDD520 /* AntonovAircraftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B9F0631F19EC9E00EDD520 /* Build configuration list for PBXNativeTarget "AntonovAircraftTests" */;
+			buildPhases = (
+				84B9F0481F19EC9E00EDD520 /* Sources */,
+				84B9F0491F19EC9E00EDD520 /* Frameworks */,
+				84B9F04A1F19EC9E00EDD520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B9F04E1F19EC9E00EDD520 /* PBXTargetDependency */,
+			);
+			name = AntonovAircraftTests;
+			productName = AntonovAircraftTests;
+			productReference = 84B9F04C1F19EC9E00EDD520 /* AntonovAircraftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84B9F0561F19EC9E00EDD520 /* AntonovAircraftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B9F0661F19EC9E00EDD520 /* Build configuration list for PBXNativeTarget "AntonovAircraftUITests" */;
+			buildPhases = (
+				84B9F0531F19EC9E00EDD520 /* Sources */,
+				84B9F0541F19EC9E00EDD520 /* Frameworks */,
+				84B9F0551F19EC9E00EDD520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B9F0591F19EC9E00EDD520 /* PBXTargetDependency */,
+			);
+			name = AntonovAircraftUITests;
+			productName = AntonovAircraftUITests;
+			productReference = 84B9F0571F19EC9E00EDD520 /* AntonovAircraftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B9F02B1F19EC9E00EDD520 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Igor Karyi";
+				TargetAttributes = {
+					84B9F0321F19EC9E00EDD520 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = AV23R78L97;
+						ProvisioningStyle = Automatic;
+					};
+					84B9F04B1F19EC9E00EDD520 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = AV23R78L97;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84B9F0321F19EC9E00EDD520;
+					};
+					84B9F0561F19EC9E00EDD520 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = AV23R78L97;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84B9F0321F19EC9E00EDD520;
+					};
+				};
+			};
+			buildConfigurationList = 84B9F02E1F19EC9E00EDD520 /* Build configuration list for PBXProject "AntonovAircraft" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84B9F02A1F19EC9E00EDD520;
+			productRefGroup = 84B9F0341F19EC9E00EDD520 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B9F0321F19EC9E00EDD520 /* AntonovAircraft */,
+				84B9F04B1F19EC9E00EDD520 /* AntonovAircraftTests */,
+				84B9F0561F19EC9E00EDD520 /* AntonovAircraftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B9F0311F19EC9E00EDD520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B9F0461F19EC9E00EDD520 /* LaunchScreen.storyboard in Resources */,
+				84B9F0431F19EC9E00EDD520 /* Assets.xcassets in Resources */,
+				84B9F0831F1A213000EDD520 /* PassengerAircraftPlist.plist in Resources */,
+				84B9F09C1F1A4DA900EDD520 /* Ан-3Т.png in Resources */,
+				84B9F07C1F1A074B00EDD520 /* CardView.xib in Resources */,
+				84B9F0811F1A0CDA00EDD520 /* TransportAircraftPlist.plist in Resources */,
+				84B9F0411F19EC9E00EDD520 /* Main.storyboard in Resources */,
+				84B9F0851F1A214B00EDD520 /* SpecialPurposeAircraftPlist.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B9F04A1F19EC9E00EDD520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B9F0551F19EC9E00EDD520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B9F02F1F19EC9E00EDD520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B9F08B1F1A2D8600EDD520 /* InfoPassengerAircraftViewController.m in Sources */,
+				84B9F03E1F19EC9E00EDD520 /* HomePageViewController.m in Sources */,
+				84B9F0711F19F9F500EDD520 /* SpecialPurposeAircraftViewController.m in Sources */,
+				84B9F08E1F1A2DA000EDD520 /* InfoSpecialPurposeAircraftViewController.m in Sources */,
+				84B9F0741F19FC6700EDD520 /* TransportAircraftViewController.m in Sources */,
+				84B9F0911F1A309E00EDD520 /* InfoAntonovAircraftViewController.m in Sources */,
+				84B9F03B1F19EC9E00EDD520 /* AppDelegate.m in Sources */,
+				84B9F0881F1A284C00EDD520 /* InfoTransportAircraftViewController.m in Sources */,
+				84B9F06E1F19F9BA00EDD520 /* PassengerAircraftViewController.m in Sources */,
+				84B9F0381F19EC9E00EDD520 /* main.m in Sources */,
+				84B9F07F1F1A086700EDD520 /* CardView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B9F0481F19EC9E00EDD520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B9F0511F19EC9E00EDD520 /* AntonovAircraftTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B9F0531F19EC9E00EDD520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B9F05C1F19EC9E00EDD520 /* AntonovAircraftUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84B9F04E1F19EC9E00EDD520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B9F0321F19EC9E00EDD520 /* AntonovAircraft */;
+			targetProxy = 84B9F04D1F19EC9E00EDD520 /* PBXContainerItemProxy */;
+		};
+		84B9F0591F19EC9E00EDD520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B9F0321F19EC9E00EDD520 /* AntonovAircraft */;
+			targetProxy = 84B9F0581F19EC9E00EDD520 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84B9F03F1F19EC9E00EDD520 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B9F0401F19EC9E00EDD520 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84B9F0441F19EC9E00EDD520 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B9F0451F19EC9E00EDD520 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84B9F05E1F19EC9E00EDD520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84B9F05F1F19EC9E00EDD520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84B9F0611F19EC9E00EDD520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AV23R78L97;
+				INFOPLIST_FILE = AntonovAircraft/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karyi.AntonovAircraft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		84B9F0621F19EC9E00EDD520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AV23R78L97;
+				INFOPLIST_FILE = AntonovAircraft/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karyi.AntonovAircraft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		84B9F0641F19EC9E00EDD520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AV23R78L97;
+				INFOPLIST_FILE = AntonovAircraftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karyi.AntonovAircraftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AntonovAircraft.app/AntonovAircraft";
+			};
+			name = Debug;
+		};
+		84B9F0651F19EC9E00EDD520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AV23R78L97;
+				INFOPLIST_FILE = AntonovAircraftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karyi.AntonovAircraftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AntonovAircraft.app/AntonovAircraft";
+			};
+			name = Release;
+		};
+		84B9F0671F19EC9E00EDD520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AV23R78L97;
+				INFOPLIST_FILE = AntonovAircraftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karyi.AntonovAircraftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AntonovAircraft;
+			};
+			name = Debug;
+		};
+		84B9F0681F19EC9E00EDD520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AV23R78L97;
+				INFOPLIST_FILE = AntonovAircraftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karyi.AntonovAircraftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AntonovAircraft;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B9F02E1F19EC9E00EDD520 /* Build configuration list for PBXProject "AntonovAircraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B9F05E1F19EC9E00EDD520 /* Debug */,
+				84B9F05F1F19EC9E00EDD520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B9F0601F19EC9E00EDD520 /* Build configuration list for PBXNativeTarget "AntonovAircraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B9F0611F19EC9E00EDD520 /* Debug */,
+				84B9F0621F19EC9E00EDD520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B9F0631F19EC9E00EDD520 /* Build configuration list for PBXNativeTarget "AntonovAircraftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B9F0641F19EC9E00EDD520 /* Debug */,
+				84B9F0651F19EC9E00EDD520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B9F0661F19EC9E00EDD520 /* Build configuration list for PBXNativeTarget "AntonovAircraftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B9F0671F19EC9E00EDD520 /* Debug */,
+				84B9F0681F19EC9E00EDD520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84B9F02B1F19EC9E00EDD520 /* Project object */;
+}
